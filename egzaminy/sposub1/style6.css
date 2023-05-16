@@ -1,0 +1,131 @@
+@import 'https://raw.githubusercontent.com/jonathantneal/system-font-css/gh-pages/system-font.css';
+h1 {
+	font-weight: normal;
+}
+
+a {
+  color: inherit;
+}
+
+a:focus,
+a:hover {
+  text-decoration-color: black;
+}
+
+input {
+  font: inherit;
+  padding: 0.2em 0.5em;
+
+}
+
+body
+{
+    font-family: arial;
+    background-color: rgb(244, 164, 96);
+    color: white;
+}
+p
+{
+    padding: 20px;
+    font-size: 150%;
+    border-radius: 2px;
+    border-style: dotted;
+    border-color: rgb(169, 169, 169);
+}
+p:hover
+{
+    background-color: rgb(169, 169, 169);
+}
+table
+{
+    width: 100%;
+    border-collapse: collapse;
+}
+td
+{
+    border-radius: 1px;
+    border-style: solid;
+    border-color: rgb(192, 192, 192);
+    padding: 5px;
+}
+.baner1
+{
+    text-align: center;
+    float: left;
+    width: 75%;
+    height: 150px;
+    font-size:200%;
+}
+.baner2
+{
+    float: left;
+    text-align: center;
+    width: 25%;
+    height: 50px;
+}
+.main
+{
+    clear: both;
+    background-color: rgb(128, 0, 0);
+    padding: 50px;
+    text-transform: uppercase;
+}
+.stopka1, .stopka3
+{
+    float: left;
+    width: 20%;
+    text-align: center;
+    padding-top: 90px;
+
+}
+.stopka2
+{
+    float: left;
+    text-align: center;
+    width: 60%;
+}
+
+.button-5 {
+  align-items: center;
+  background-clip: padding-box;
+  background-color: #fa6400;
+  border: 1px solid transparent;
+  border-radius: .25rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.25;
+  margin: 0;
+  min-height: 3rem;
+  padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+  position: relative;
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: auto;
+}
+
+.button-5:hover,
+.button-5:focus {
+  background-color: #fb8332;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}
+
+.button-5:hover {
+  transform: translateY(-1px);
+}
+
+.button-5:active {
+  background-color: #c85000;
+  box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
+  transform: translateY(0);
+}
